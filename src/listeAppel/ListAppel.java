@@ -18,6 +18,10 @@ public class ListAppel {
 		this.etudiants = etudiants;
 	}
 	
+	public ListAppel() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getLibelleSalle() {
 		return libelleSalle;
 	}
@@ -30,4 +34,14 @@ public class ListAppel {
 	public void setEtudiants(List<Etudiant> etudiants) {
 		this.etudiants = etudiants;
 	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "ListAppel [libelleSalle=" + libelleSalle + ", etudiants=" + etudiants + "]";
+	}
+
+	
 }

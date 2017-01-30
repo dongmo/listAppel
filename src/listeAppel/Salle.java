@@ -5,10 +5,7 @@ public class Salle {
 	private String libelle;
 	private int nbPlace;
 	
-	public Salle(String libelle, int nbPlace) {
-		this.libelle = libelle;
-		this.nbPlace = nbPlace;
-	}
+	
 	public String getLibelle() {
 		return libelle;
 	}

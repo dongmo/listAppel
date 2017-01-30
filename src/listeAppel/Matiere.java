@@ -12,14 +12,6 @@ public class Matiere {
 	private String libelle;
 
 	/**
-	 * @param libelle
-	 */
-	public Matiere(String libelle) {
-		
-		this.libelle = libelle;
-	}
-
-	/**
 	 * @return the libelle
 	 */
 	public String getLibelle() {

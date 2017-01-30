@@ -4,12 +4,6 @@ public class Classe {
 
 	private String libelle;
 
-	/**
-	 * @param libelle
-	 */
-	public Classe(String libelle) {
-		this.libelle = libelle;
-	}
 
 	/**
 	 * @return the libelle
